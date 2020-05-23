@@ -7,58 +7,31 @@
   <title>My Personal CV</title>
   <meta name="description" content="Personal CV">
   <meta name="author" content="">
-  <style>
-
-  </style>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&amp;display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>My Personal CV</h1>
-  <table>
-    <tr>
-      <td>
-        <img src="./avatar.png" width="64" height="64"/>
-      </td>
-      <td>
-        <table>
-          <tr>
-            <td>            Name: Zhijin Liu            </td>
-          </tr>
-          <tr>
-            <td>
-              Age: 22
-            </td>
-          </tr>
-          <tr>
-            <td>
-              liuzhijinin0701@gmail.com
-            </td>
-          </tr>
-          <tr>
-            <td>
-              Bachelor of Entrepreneurship and innovation management
-            </td>
-          </tr>
-          <tr>
-            <td>
-              Bachelor of Finance and Business in University of Sussex
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <table>
-    <tr>
-      <td>
-        <img src="./report.png" width="24" height="24"/>
-      </td>
-      <td>
-        <h2>Professional summary</h2>
-      </td>
-    </tr>
-  </table>
-  <p>        Talented Administrative professional with
+  <div class="header">
+    <p class="header-title">
+      I'm Zhijin Liu
+    </p>
+    <p class="header-info">
+      a computer engineer
+    </p>
+    <div class="image-container">
+      <img src="./cloud.png" />
+    </div>
+  </div>
+  <div class="summary">
+    <div class="image-container">
+      <img src="./avatar.png" width="128" height="128"/>
+    </div>
+    <div class="school-container">
+      <p class="school-info">Student of Entrepreneurship and innovation management</p>
+      <p class="school-info">Bachelor of Finance and Business in University of Sussex</p>  
+    </div>
+    <p class="personal-info">
+      Talented Administrative professional with
     background in computer science. Extensive
     knowledge of using Microsoft Excel software.
      Meticulous photography editing and colour
@@ -66,46 +39,45 @@
     exceptional  presentations meeting diverse  needs.
     Dedicated to maximizing customer satisfaction and
     exceeding objectives with organized approach
-    and strong multitasking abilities.</p>
-  <hr>
-  <table>
-    <tr>
-      <td>
-        <img src="./image1.png" width="512" />
-      </td>
-      <td>
-        Once served as the deputy minister of the Entrepreneurship and Employment Development Department of the Chinese Association of Sussex University. He has strong job execution ability and can efficiently complete the tasks of the Association and departments. He also serves as a responsible assistant and person in charge of many activities. The management team can actively coordinate the relations between the members of the department while leading the team work.
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <table>
-    <tr>
-      <td>
-        I am enthusiastic and outgoing, willing to help others, full of interest in accepting new things and new challenges, good at coordinating affairs and sharing the work pressure of members; strong self-learning ability, able to use MS Office, Excel, power point and other office software, Office execution and efficiency are high; active thinking, good communication, organization and coordination skills.
-      </td>
-      <td>
-        <img src="./image2.png" width="512" />
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <table>
-    <tr>
-      <td>
-        <img src="./pencil.png" width="24" height="24"/>
-      </td>
-      <td>
-        <h2>Skills</h2>
-      </td>
-    </tr>
-  </table>
-  <ul>
-    <li>Computer Science ⭐⭐⭐⭐⭐</li>
-    <li>Office 365 ⭐⭐⭐</li>
-    <li>Mathmatics ⭐⭐⭐⭐</li>
-    <li>Leadship ⭐⭐⭐⭐</li>
-    <li>Self confidence ⭐⭐⭐⭐⭐</li>
-  </ul>
+    and strong multitasking abilities.
+    </p>
+  </div>
+  <div class="history third">
+    <p>
+      Once served as the deputy minister of the Entrepreneurship and Employment Development Department of the Chinese Association of Sussex University. He has strong job execution ability and can efficiently complete the tasks of the Association and departments. He also serves as a responsible assistant and person in charge of many activities. The management team can actively coordinate the relations between the members of the department while leading the team work.
+    </p>
+    <div class="history-image">
+      <img src="./image1.png" />
+    </div>
+  </div>
+  <div class="history fourth">
+    <p>
+      I am enthusiastic and outgoing, willing to help others, full of interest in accepting new things and new challenges, good at coordinating affairs and sharing the work pressure of members; strong self-learning ability, able to use MS Office, Excel, power point and other office software, Office execution and efficiency are high; active thinking, good communication, organization and coordination skills.
+    </p>  
+    <div class="history-image">
+      <img src="./image2.png"/>  
+    </div>
+  </div>
+  <div class="skill">
+    <h2>My Skills</h2>
+    <div class="list">
+      <div class="pairs">
+        <img src="./information.png" width="128"/>
+        <p>Computer Science</p>
+      </div>
+      <div class="pairs">
+        <img src="./prototype.png" width="128"/>
+        <p>Mathmatics</p>
+      </div>
+      <div class="pairs">
+        <img src="./teamwork.png" width="128"/>
+        <p>Leadship</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <a href="mailto:thnd.ta@gmail.com">CONTACT ME</a>    
+    <p>@2020 Zhijin Liu</p>
+  </div>
 </body>
 </html>

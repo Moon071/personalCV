@@ -1,0 +1,108 @@
+body{
+  margin: 0px;
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+.header{
+  height: 50vh;
+  background-color:#90CAF9;
+  text-align: center;
+  color: white;
+  position: relative;
+  width: 100%;
+}
+.header .header-title{
+  width: 100%;
+  text-align: center;
+  padding-top: 5vh;
+  padding-bottom: 2vh;
+  margin: 0px;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: 'Sacramento', cursive;
+    color: white;
+}
+.image-container{
+  width: 100%;
+  text-align: center;
+}
+.summary{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #42A5F5  ;
+  height: 50vh;
+}
+.summary p {
+  margin: 0px;
+}
+.summary .school-container{
+  margin-top: 5vh;
+}
+.summary .school-info{
+  color: white;
+  text-align: center;
+}
+.summary .personal-info{
+  margin-top: 5vh;
+  margin-left: 10px;
+  color: #40514E;
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+.history {
+  display: flex;
+  flex-direction: row;
+  height: 50vh;
+  color: #40514E;
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+.third{
+  background-color: #2196F3;
+}
+.fourth{
+  background-color: #1976D2  ;
+}
+.history p {
+  flex: 1;
+  margin-left: 10px;
+  align-self: center;
+}
+.history-image{
+  border-radius: 50%;
+  overflow: hidden;
+  flex: 0 0 500px;
+  height: 350px;
+  /* width: 400px; */
+}
+.skill{
+  background-color: #42A5F5 ;
+  text-align: center;
+  height: 40vh;
+}
+.skill p {
+  margin: 0px;
+  color: #40514E;
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+.skill h2 {
+  margin: 0px;
+  font-size: 36px;
+  padding-top: 5vh;
+}
+.skill .list{
+  display: flex;
+  margin-top: 20px;
+}
+.list .pairs{
+  flex: 1;
+}
+.footer{
+  background-color:#90CAF9  ;
+  text-align: center;
+}
+.footer a {
+  color: rgb(100,110,230);
+  text-decoration: none;
+}
+.footer p{
+  margin: 0px;
+  margin-top: 10px;
+}
